@@ -1,13 +1,13 @@
 EESchema Schematic File Version 4
 LIBS:RJ10Adapter-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "RJ FTDI Adapter"
-Date "2019-04-09"
-Rev "1.1"
+Date "2019-05-01"
+Rev "1.2"
 Comp "haus-automatisierung.com"
 Comment1 "Matthias Kleine"
 Comment2 ""
@@ -260,10 +260,6 @@ Wire Wire Line
 	5150 2300 5300 2300
 Wire Wire Line
 	5150 1600 5450 1600
-Wire Wire Line
-	5450 1600 5450 800 
-Wire Wire Line
-	5450 800  4550 800 
 Connection ~ 4550 800 
 Wire Wire Line
 	5600 2300 5800 2300
@@ -272,7 +268,6 @@ Wire Wire Line
 Wire Wire Line
 	5800 2900 4550 2900
 Connection ~ 4550 2900
-Connection ~ 5450 800 
 Wire Wire Line
 	5300 3500 5300 3150
 Wire Wire Line
@@ -296,8 +291,6 @@ Wire Wire Line
 Connection ~ 5100 3700
 Wire Wire Line
 	5100 3700 5450 3700
-Wire Wire Line
-	5450 800  7400 800 
 Wire Wire Line
 	5150 1700 6350 1700
 Wire Wire Line
@@ -344,4 +337,24 @@ Text Label 4850 3500 0    50   ~ 0
 RX
 Text Label 4850 3600 0    50   ~ 0
 TX
+Wire Wire Line
+	4550 800  5450 800 
+$Comp
+L Device:R R3
+U 1 1 5CC9A463
+P 5450 1000
+F 0 "R3" H 5520 1046 50  0000 L CNN
+F 1 "R" H 5520 955 50  0000 L CNN
+F 2 "" V 5380 1000 50  0001 C CNN
+F 3 "~" H 5450 1000 50  0001 C CNN
+	1    5450 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 850  5450 800 
+Connection ~ 5450 800 
+Wire Wire Line
+	5450 800  7400 800 
+Wire Wire Line
+	5450 1600 5450 1150
 $EndSCHEMATC

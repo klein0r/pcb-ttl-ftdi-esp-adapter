@@ -1,4 +1,4 @@
-15697819819013597
+15702563418075597
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -48846,6 +48846,13 @@ libs
 2
 2
 libs
+Castellated
+
+
+0
+12
+3
+libs
 Logo
 
 
@@ -48888,6 +48895,13 @@ MP1584_buck_module
 8
 4
 libs
+MP1584_buck_module_SMD
+
+
+0
+8
+4
+libs
 MT3608_module
 
 
@@ -48910,6 +48924,13 @@ N95_battery_connector
 3
 libs
 ProMicro
+Pro Micro footprint
+promicro ProMicro
+0
+24
+24
+libs
+ProMicroSMD
 Pro Micro footprint
 promicro ProMicro
 0
