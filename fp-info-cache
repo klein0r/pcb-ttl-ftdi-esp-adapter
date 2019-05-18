@@ -1,4 +1,4 @@
-15702563418075597
+15701015707597224
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44561,6 +44561,48 @@ UL/CSA 6x32mm Ceramic Slow Blow Fuse
 0
 2
 2
+halibs
+ArduinoProMicro
+Pro Micro footprint
+promicro ProMicro
+0
+24
+24
+halibs
+ArduinoProMicroSMD
+Pro Micro footprint
+promicro ProMicro
+0
+24
+24
+halibs
+Logo
+
+
+0
+0
+0
+halibs
+Logo_20mm
+
+
+0
+0
+0
+halibs
+MEBP_44S
+
+
+0
+4
+4
+halibs
+MH-Z19B
+
+
+0
+9
+9
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -48853,41 +48895,6 @@ Castellated
 12
 3
 libs
-Logo
-
-
-0
-0
-0
-libs
-Logo20mm_SM
-
-
-0
-0
-0
-libs
-Logo_20mm
-
-
-0
-0
-0
-libs
-MEBP_44S_MK
-
-
-0
-4
-4
-libs
-MH-Z19B
-
-
-0
-9
-9
-libs
 MP1584_buck_module
 
 
@@ -48922,20 +48929,6 @@ N95_battery_connector
 0
 3
 3
-libs
-ProMicro
-Pro Micro footprint
-promicro ProMicro
-0
-24
-24
-libs
-ProMicroSMD
-Pro Micro footprint
-promicro ProMicro
-0
-24
-24
 libs
 XL6009_module
 
