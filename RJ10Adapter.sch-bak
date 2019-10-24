@@ -1,12 +1,12 @@
 EESchema Schematic File Version 4
 LIBS:RJ10Adapter-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "RJ FTDI Adapter"
-Date "2019-10-24"
+Date "2019-05-11"
 Rev "1.2"
 Comp "haus-automatisierung.com"
 Comment1 "Matthias Kleine"

@@ -1,8 +1,8 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.0-0)")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.4-0-10_14)")
 
   (general
     (thickness 1.6)
-    (drawings 29)
+    (drawings 30)
     (tracks 125)
     (zones 0)
     (modules 16)
@@ -12,7 +12,7 @@
   (page A4)
   (title_block
     (title "RJ FTDI Adapter")
-    (date 2019-05-11)
+    (date 2019-10-24)
     (rev 1.2)
     (company haus-automatisierung.com)
     (comment 1 "Matthias Kleine")
@@ -3032,6 +3032,18 @@
     (pad "" np_thru_hole circle (at 0.2404 3.8354) (size 3.17 3.17) (drill 3.17) (layers *.Cu *.Mask))
   )
 
+  (dimension 73.152248 (width 0.15) (layer F.SilkS)
+    (gr_text "73.152 mm" (at 149.904065 79.44003 359.8507926) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (feature1 (pts (xy 186.436 96.4565) (xy 186.478207 80.248857)))
+    (feature2 (pts (xy 113.284 96.266) (xy 113.326207 80.058357)))
+    (crossbar (pts (xy 113.32468 80.644776) (xy 186.47668 80.835276)))
+    (arrow1a (pts (xy 186.47668 80.835276) (xy 185.348653 81.418761)))
+    (arrow1b (pts (xy 186.47668 80.835276) (xy 185.351707 80.245924)))
+    (arrow2a (pts (xy 113.32468 80.644776) (xy 114.449653 81.234128)))
+    (arrow2b (pts (xy 113.32468 80.644776) (xy 114.452707 80.061291)))
+  )
   (gr_text "AMS1117 3.3V" (at 181.102 91.059 90) (layer F.SilkS) (tstamp 5CD71354)
     (effects (font (size 0.5 0.5) (thickness 0.1)))
   )
