@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "RJ FTDI Adapter"
-Date "2019-10-24"
-Rev "1.2"
+Date "2020-08-09"
+Rev "1.3"
 Comp "haus-automatisierung.com"
 Comment1 "Matthias Kleine"
 Comment2 ""
@@ -84,15 +84,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 3600 4100 3600
 Wire Wire Line
-	4050 3800 4550 3800
-Wire Wire Line
-	4550 3800 4550 3500
-Wire Wire Line
 	4550 3500 5300 3500
-Wire Wire Line
-	4050 3700 4500 3700
-Wire Wire Line
-	4500 3700 4500 3650
 Wire Wire Line
 	4500 3650 4700 3650
 Wire Wire Line
@@ -357,4 +349,12 @@ Wire Wire Line
 	5450 800  7400 800 
 Wire Wire Line
 	5450 1600 5450 1150
+Wire Wire Line
+	4500 3800 4050 3800
+Wire Wire Line
+	4500 3650 4500 3800
+Wire Wire Line
+	4050 3700 4550 3700
+Wire Wire Line
+	4550 3700 4550 3500
 $EndSCHEMATC
