@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:RJ10Adapter-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -116,7 +115,7 @@ F 3 "~" H 5450 2300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:USB_B_Micro J3
+L RJ10Adapter-rescue:USB_B_Micro-Connector J3
 U 1 1 5CAF7777
 P 2050 1200
 F 0 "J3" V 2152 1530 50  0000 L CNN

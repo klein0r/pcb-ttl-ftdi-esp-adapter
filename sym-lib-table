@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name RJ10Adapter-rescue)(type Legacy)(uri ${KIPRJMOD}/RJ10Adapter-rescue.lib)(options "")(descr ""))
+)
