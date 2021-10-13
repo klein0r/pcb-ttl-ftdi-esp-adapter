@@ -4,6 +4,8 @@
 
 ![PCB Preview](https://raw.githubusercontent.com/klein0r/pcb-ttl-ftdi-esp-adapter/master/preview.png)
 
+![PCB Photo](https://raw.githubusercontent.com/klein0r/pcb-ttl-ftdi-esp-adapter/master/previewReal.jpg)
+
 ## License
 
 The MIT License (MIT)
